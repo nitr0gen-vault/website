@@ -1,0 +1,77 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "assets/css/full-page-scroll.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+.logo {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  z-index: 100;
+}
+
+.store {
+  width: 150px;
+  margin: 0 auto;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.clearer {
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 30px;
+}
+
+.content h1 {
+  font-size: 40px;
+}
+
+.content h2 {
+  font-size: 13px;
+  color: aliceblue;
+}
+
+.content p {
+  font-size: 16px;
+  color: #fff;
+  opacity: 1;
+}
+
+#video_background {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  max-width: none;
+  max-height: none;
+}
+
+.content {
+  position: fixed;
+  font-family: "Rubik", sans-serif;
+  color: #fff;
+  right: 10%;
+  left: 10%;
+  /*top: 20%;*/
+  /* padding-top:120px; */
+  /*bottom: 20%;*/
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.grid span svg {
+  margin-right: 10px;
+}
+
+.social {
+  position: absolute;
+  z-index: 100;
+  bottom: 20px;
+  right: 40px;
+  color:#fff;
+  font-size:40px;
+}
